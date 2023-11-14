@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/red"
+        android:text="@string/intro"
+        />
+
+    <!--CHAMP POUR LE NOM-->
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:labelFor="@+id/modifier_nom"
+        android:text="@string/nom"
+        />
+    <EditText
+        android:id="@+id/modifier_nom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/gray"
+        android:inputType="text"
+        android:background="@color/gray_2"
+        android:textColorHint="@color/gray"
+        android:hint="@string/entrez_nom"
+        />
+
+    <!--CHAMP POUR LE PRENOM-->
+    <TextView
+        android:id="@+id/prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:labelFor="@+id/modifier_prenom"
+        android:text="@string/pr_nom"
+        />
+    <EditText
+        android:id="@+id/modifier_prenom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/gray"
+        android:inputType="text"
+        android:background="@color/gray_2"
+        android:textColorHint="@color/gray"
+        android:hint="@string/entrez_pr_nom"
+        />
+
+    <!--CHAMP POUR L'AGE-->
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:labelFor="@+id/modifier_age"
+        android:text="@string/age"
+        />
+    <EditText
+        android:id="@+id/modifier_age"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/gray"
+        android:inputType="text"
+        android:background="@color/gray_2"
+        android:textColorHint="@color/gray"
+        android:hint="@string/entrez_age"
+        />
+
+    <!--CHAMP POUR LE NUMERO DE TELEPHONE-->
+    <TextView
+        android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:labelFor="@+id/modifier_tel"
+        android:text="@string/t_l_phone"
+        />
+    <EditText
+        android:id="@+id/modifier_tel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/gray"
+        android:inputType="text"
+        android:background="@color/gray_2"
+        android:textColorHint="@color/gray"
+        android:hint="@string/entrez_t_l_phone"
+        />
+
+    <!--CHAMP POUR LES COMPETENCES-->
+    <TextView
+        android:id="@+id/competence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:labelFor="@+id/modifier_competence"
+        android:text="@string/comp_tences"
+        />
+    <EditText
+        android:id="@+id/modifier_competence"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@color/gray"
+        android:inputType="text"
+        android:layout_marginBottom="40dp"
+        android:background="@color/gray_2"
+        android:textColorHint="@color/gray"
+        android:hint="@string/rens_comp_tences"
+        />
+
+    <!--CHAMP POUR LE NOM-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:textSize="23sp"
+        android:textColor="@color/red"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/valider"
+        />
+
+</LinearLayout>

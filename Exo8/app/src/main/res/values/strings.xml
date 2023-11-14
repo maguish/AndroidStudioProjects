@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Exo8</string>
+    <string name="o_voulez_vous_allez">Où voulez vous allez ?</string>
+    <string name="d_part">Départ</string>
+    <string name="choisir_une_ville">Choisir une ville</string>
+    <string name="destination">Destination</string>
+    <string name="rechercher">Rechercher</string>
+</resources>

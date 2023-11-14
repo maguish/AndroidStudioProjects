@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/red"
+        android:text="@string/o_voulez_vous_allez"
+        />
+
+    <!--CHAMP POUR LA VILLE DE DEPART-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/d_part"
+            />
+        <EditText
+            android:id="@+id/depart"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/gray"
+            android:inputType="text"
+            android:background="@color/gray_2"
+            android:textColorHint="@color/gray"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/choisir_une_ville"
+            />
+
+    </LinearLayout>
+
+    <!--CHAMP POUR LA VILLE D'ARRIVEE-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/destination"
+            />
+        <EditText
+            android:id="@+id/arrive"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/gray"
+            android:inputType="text"
+            android:background="@color/gray_2"
+            android:textColorHint="@color/gray"
+            android:layout_marginTop="24dp"
+            android:hint="@string/choisir_une_ville"
+            />
+
+    </LinearLayout>
+
+    <!--BOUTON POUR LANCER RECHERCHE-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:textSize="23sp"
+        android:textColor="@color/red"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/rechercher"
+        />
+
+</LinearLayout>

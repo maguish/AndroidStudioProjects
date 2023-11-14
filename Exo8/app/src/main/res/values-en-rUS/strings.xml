@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exo8</string>
+    <string name="o_voulez_vous_allez">Where do you want to go ?</string>
+    <string name="d_part">Departure</string>
+    <string name="choisir_une_ville">Choose a city</string>
+    <string name="destination">Arrival</string>
+    <string name="rechercher">Search</string>
+</resources>

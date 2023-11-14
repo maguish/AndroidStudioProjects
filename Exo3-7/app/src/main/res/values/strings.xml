@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Exo7</string>
+    <string name="intro">Veuillez compléter ce formulaire</string>
+    <string name="nom">Nom</string>
+    <string name="entrez_nom">Entrez votre nom</string>
+    <string name="pr_nom">Prénom</string>
+    <string name="entrez_pr_nom">Entrez votre prénom</string>
+    <string name="age">Age</string>
+    <string name="entrez_age">Entrez votre âge</string>
+    <string name="t_l_phone">Téléphone</string>
+    <string name="entrez_t_l_phone">Entrez votre numéro de téléphone</string>
+    <string name="comp_tences">Compétences</string>
+    <string name="rens_comp_tences">Renseignez vos compétences</string>
+    <string name="valider">Valider</string>
+    <string name="form_envoy_avec_succ_s">Formulaire envoyé avec succès !</string>
+    <string name="voulez_vous_envoyer_le_formulaire">Voulez-vous envoyer le formulaire</string>
+    <string name="label_non">Non</string>
+    <string name="label_oui">Oui</string>
+    <string name="voici_le_r_capitulatif">Voici le récapitulatif :</string>
+    <string name="ok">Ok</string>
+    <string name="retour">Retour</string>
+    <string name="appeler">Appeler</string>
+</resources>

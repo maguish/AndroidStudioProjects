@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".EventAddActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginBottom="50dp"
+        android:textColor="@android:color/holo_red_light"
+        android:text="Nouvel événement"
+        />
+
+
+    <EditText
+        android:id="@+id/intitule"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:layout_marginBottom="20dp"
+        android:hint="Intitulé"
+        />
+
+    <EditText
+        android:id="@+id/debut"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:layout_marginBottom="20dp"
+        android:hint="Heure de début"
+        />
+
+    <EditText
+        android:id="@+id/fin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:layout_marginBottom="20dp"
+        android:hint="Heure de fin"
+        />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:textSize="23sp"
+        android:textColor="@android:color/darker_gray"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Enrégistrer"
+        />
+
+</LinearLayout>
